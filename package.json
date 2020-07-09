@@ -1,0 +1,37 @@
+{
+    "scripts": {
+        "start": "cross-env NODE_ENV=development parcel ./src/index.html --no-source-maps --no-hmr",
+        "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
+        "build": "parcel build ./src/index.html"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.3",
+        "@babel/plugin-transform-runtime": "^7.10.4",
+        "@babel/preset-env": "^7.10.3",
+        "@babel/preset-react": "^7.10.1",
+        "babel-jest": "^26.1.0",
+        "cross-env": "^7.0.2",
+        "eslint": "^7.3.1",
+        "eslint-plugin-react": "^7.20.0",
+        "jest": "^26.1.0",
+        "parcel-bundler": "^1.12.4",
+        "prettier": "^2.0.5",
+        "redux-mock-store": "^1.5.4",
+        "redux-thunk": "^2.3.0"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.10.4",
+        "@reduxjs/toolkit": "^1.4.0",
+        "firebase": "^7.15.5",
+        "history": "^5.0.0",
+        "moment": "^2.18.1",
+        "prop-types": "^15.7.2",
+        "react": "^0.14 || ^15.5.4 || ^16.1.1",
+        "react-content-loader": "^5.1.0",
+        "react-dates": "^21.8.0",
+        "react-dom": "^0.14 || ^15.5.4 || ^16.1.1",
+        "react-redux": "^7.2.0",
+        "react-router-dom": "^5.2.0",
+        "styled-components": "^5.1.1"
+    }
+}
