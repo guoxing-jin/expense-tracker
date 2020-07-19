@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "cross-env NODE_ENV=development parcel ./src/index.html --no-source-maps --no-hmr",
+        "start": "cross-env NODE_ENV=development parcel ./src/index.html --no-source-maps",
         "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
         "build": "parcel build ./src/index.html"
     },
@@ -22,6 +22,7 @@
     "dependencies": {
         "@babel/runtime": "^7.10.4",
         "@reduxjs/toolkit": "^1.4.0",
+        "@svgr/parcel-plugin-svgr": "^5.4.0",
         "firebase": "^7.15.5",
         "history": "^5.0.0",
         "moment": "^2.18.1",

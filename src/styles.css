@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cod-gray-10: rgba(70, 70, 70, 0.1);
+    --cod-gray-20: rgba(70, 70, 70, 0.2);
+    --cod-gray-40: rgba(70, 70, 70, 0.4);
+    --cod-gray-60: rgba(70, 70, 70, 0.6);
+    --cod-gray-80: rgba(70, 70, 70, 0.8);
+    --cod-gray-100: rgba(70, 70, 70, 1);
+    --lily-white-10: rgba(239, 239, 239, 0.1);
+    --lily-white-20: rgba(239, 239, 239, 0.2);
+    --lily-white-40: rgba(239, 239, 239, 0.4);
+    --lily-white-60: rgba(239, 239, 239, 0.6);
+    --lily-white-80: rgba(239, 239, 239, 0.8);
+    --lily-white-100: rgba(239, 239, 239, 1);
+    --error-red-10: rgba(230, 79, 20, 0.1);
+    --error-red-20: rgba(230, 79, 20, 0.2);
+    --error-red-40: rgba(230, 79, 20, 0.4);
+    --error-red-60: rgba(230, 79, 20, 0.6);
+    --error-red-80: rgba(230, 79, 20, 0.8);
+    --error-red-100: rgba(230, 79, 20, 1);
+    --main-blue-10: rgba(8, 129, 230, 0.1);
+    --main-blue-20: rgba(8, 129, 230, 0.2);
+    --main-blue-40: rgba(8, 129, 230, 0.4);
+    --main-blue-60: rgba(8, 129, 230, 0.6);
+    --main-blue-80: rgba(8, 129, 230, 0.8);
+    --main-blue-100: rgba(8, 129, 230, 1);
+    --font-h1: italic 32px/1.6 'IBM Plex Serif', serif;
+    --font-h2: italic 22px/1.6 'IBM Plex Serif', Serif;
+    --font-h3: 20px/1.4 'IBM Plex Serif', Serif;
+    --font-h4: 18px/1.4 'IBM Plex Sans Condensed', sans-serif;
+    --font-body: 16px/1.4 'IBM Plex Sans Condensed', sans-serif;
+    --border-transparent: 1px solid transparent;
+    --border: 1px solid var(--cod-gray-20);
+    --border-focused: 1px solid var(--cod-gray-100);
+    --shadow: 1px 1px 4px var(--cod-gray-10);
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    src: url('../assets/IBMPlexSansCondensed-Regular.ttf');
+    src: url('../assets/IBMPlexSerif-MediumItalic.ttf');
+}
