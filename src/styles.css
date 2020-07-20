@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../assets/roboto-regular-webfont.woff') format('woff'),
+        url('../assets/roboto-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../assets/lora-italic-variablefont_wght-webfont.woff')
+            format('woff'),
+        url('../assets/lora-italic-variablefont_wght-webfont.woff2')
+            format('woff2');
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -29,19 +49,13 @@
     --main-blue-60: rgba(8, 129, 230, 0.6);
     --main-blue-80: rgba(8, 129, 230, 0.8);
     --main-blue-100: rgba(8, 129, 230, 1);
-    --font-h1: italic 32px/1.6 'IBM Plex Serif', serif;
-    --font-h2: italic 22px/1.6 'IBM Plex Serif', Serif;
-    --font-h3: 20px/1.4 'IBM Plex Serif', Serif;
-    --font-h4: 18px/1.4 'IBM Plex Sans Condensed', sans-serif;
-    --font-body: 16px/1.4 'IBM Plex Sans Condensed', sans-serif;
+    --font-h1: italic 32px/1.6 'Lora', serif;
+    --font-h2: italic 22px/1.6 'Lora', Serif;
+    --font-h3: 20px/1.4 'Lora', Serif;
+    --font-h4: 18px/1.4 'Roboto', sans-serif;
+    --font-body: 16px/1.4 'Roboto', sans-serif;
     --border-transparent: 1px solid transparent;
     --border: 1px solid var(--cod-gray-20);
     --border-focused: 1px solid var(--cod-gray-100);
     --shadow: 1px 1px 4px var(--cod-gray-10);
-}
-
-@font-face {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    src: url('../assets/IBMPlexSansCondensed-Regular.ttf');
-    src: url('../assets/IBMPlexSerif-MediumItalic.ttf');
 }

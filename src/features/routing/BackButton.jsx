@@ -26,11 +26,10 @@ const StyledBackButton = styled.button`
 
         transition: transform 120ms ease-in-out;
     }
-    span {
-        padding-top: 1.5px; /* tweak */
-    }
 
     :hover {
+        cursor: pointer;
+
         & span {
             color: var(--cod-gray-100);
         }

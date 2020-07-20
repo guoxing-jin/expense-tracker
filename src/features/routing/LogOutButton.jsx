@@ -14,8 +14,7 @@ const StyledLogOutButton = styled(StyledButton)`
     bottom: 48px;
     right: 48px;
 
-    padding-top: 1px; /* tweak */
-    padding-left: 1px; /* tweak */
+    padding-left: 2px; /* tweak */
 
     :hover,
     :focus {

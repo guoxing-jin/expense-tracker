@@ -27,8 +27,6 @@ const StyledSearchTerm = styled(StyledInput)`
     padding-left: 8px;
 
     margin-right: 8px;
-
-    padding-top: 2px; /* tweak */
 `
 
 const StyledSortBy = styled.select`
@@ -46,8 +44,6 @@ const StyledSortBy = styled.select`
     appearance: none; /* remove default select drop-down arrow */
 
     margin-right: 8px;
-
-    padding-top: 2px; /* tweak */
 
     :focus {
         border: var(--border-focused);
@@ -81,8 +77,6 @@ const StyledDateRangePickerWrapper = styled.div`
 
         padding: 0; /* remove default paddings */
         border-bottom: none; /* remove default border-bottom */
-        padding-top: 2px; /* tweak */
-        padding-left: 2px; /* tweak */
     }
     & .DateInput_input__focused {
         text-decoration-line: underline;
@@ -118,7 +112,6 @@ const StyledResetDates = styled(StyledButton)`
 
     color: var(--cod-gray-60);
 
-    padding-top: 2px; /* tweak */
     padding-left: 2px; /* tweak */
 
     :hover,

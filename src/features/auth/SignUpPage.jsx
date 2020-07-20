@@ -49,8 +49,7 @@ const StyledSignUpButton = styled(StyledButton)`
     width: 112px;
     height: 40px;
 
-    padding-top: 2px; /* tweak */
-    padding-left: 2px; /* tweak */
+    padding-left: 4px; /* tweak */
 `
 
 const SignUpPage = () => {

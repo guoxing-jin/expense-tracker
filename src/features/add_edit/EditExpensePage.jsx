@@ -88,8 +88,6 @@ const StyledSingleDatePickerWrapper = styled.div`
 
         padding: 0; /* remove default paddings */
         border-bottom: none; /* remove default border-bottom */
-        padding-top: 2px; /* tweak */
-        padding-left: 2px; /* tweak */
     }
     & .SingleDatePicker_picker {
         /* align date picker with textarea */
@@ -240,7 +238,7 @@ const EditExpensePage = () => {
                     </StyledSingleDatePickerWrapper>
                 </StyledRequiredInputWrapper>
                 <StyledNoteTextarea
-                    placeholder="Note for this expense"
+                    placeholder="Add a note for this expense..."
                     value={note}
                     onChange={onNoteChange}
                     disabled={disabled}

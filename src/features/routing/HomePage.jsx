@@ -8,12 +8,16 @@ const StyledLogIn = styled(StyledLink)`
     width: 208px;
     height: 40px;
 
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+
+    padding-bottom: 2px; /* tweak */
 `
 
 const StyledSignUp = styled(StyledLink)`
     width: 208px;
     height: 40px;
+
+    padding-bottom: 2px; /* tweak */
 `
 
 const HomePage = () => {
