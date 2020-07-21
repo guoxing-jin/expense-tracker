@@ -1,9 +1,15 @@
 # Expense Tracking App
-Track your expenses with basic CURD operations
+A simple web app for tracking your expenses
+
+## Technology Stack
+- React
+- Redux Toolkit
+- React Router
+- styled-components
+- Firebase
 
 ## To-Dos
-[] Add unit tests using Jest
-
-[] Add UI component tests using Testing library
-
-[] Responsive design
+- [] Add unit tests using Jest
+- [] Add UI component tests using Testing library
+- [] Fix performance issue
+- [] Responsive design
