@@ -46,9 +46,11 @@ const ExpenseList = () => {
     const { startDate, endDate } = useSelector(filtersSelector)
     const filteredExpenses = useSelector(filteredExpensesSelector)
 
-    const totalAmount = filteredExpenses.reduce((total, { amount }) => {
-        return total + Number.parseFloat(amount)
-    }, 0)
+    const totalAmount = filteredExpenses
+        .reduce((total, { amount }) => {
+            return total + Number.parseFloat(amount)
+        }, 0)
+        .toFixed(2)
 
     return (
         <StyledExpenseList>
