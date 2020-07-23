@@ -1,7 +1,9 @@
 # Expense Tracking App
-A simple web app for tracking your expenses
+This project is a simple web app for tracking expenses.
 
-https://expense-tracking.netlify.app （由于使用了 Google Firebase 服务，国内无法正常登陆，需使用 VPN 以便正常试用）
+[Live Demo](https://expense-tracker.online) (后端和数据库使用了 Google Firebase 服务, 需要 VPN 以便正常试用)
+
+![Walk-through](https://github.com/guoxing-jin/expense-tracker/blob/master/screenshots/walk-through.gif)
 
 ## Technology Stack
 - React
